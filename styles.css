@@ -4,4 +4,24 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+
+body {
+    background-color: #efefef;
+}
+
+.header {
+    text-align: left;
+    padding: 24px;
+    margin-bottom: 20px;
+}
+
+.header img {
+    width: 48px;
+    height: 48px;
+}
+
+.header h1 {
+    display: inline-block;
 }
