@@ -25,3 +25,24 @@ body {
 .header h1 {
     display: inline-block;
 }
+
+.recipe-list {
+    padding: 24px;
+}
+
+.recipe-list li {
+    list-style: none;
+    margin: 10px;
+}
+
+.recipe-list a {
+    color: orangered;
+}
+
+.recipe-list a:hover {
+    color: orange;
+}
+
+.recipe-title.home a {
+    text-decoration: none;
+}
