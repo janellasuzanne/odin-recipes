@@ -104,3 +104,24 @@ body {
 .step {
     list-style-type: lower-roman;
 }
+
+aside {
+    width: 30%;
+    padding: 10px;
+    margin: 20px 50px;
+    float: right;
+    background-color: #709ad1;
+    color: #efefef;
+    border-radius: 10px;
+}
+
+.cook-note-title,
+.cook-note-description {
+    padding: 10px;
+}
+
+.cook-note-description p {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-style: italic;
+}
