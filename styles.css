@@ -46,3 +46,14 @@ body {
 .recipe-title.home a {
     text-decoration: none;
 }
+
+/* recipe pages */
+
+.breadcrumb {
+    padding: 10px;
+    margin: 12px;
+}
+
+.breadcrumb .crumb {
+    display: inline-block;
+}
