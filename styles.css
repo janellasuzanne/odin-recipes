@@ -125,3 +125,8 @@ aside {
     margin-bottom: 10px;
     font-style: italic;
 }
+
+aside hr {
+    border: 3px solid white;
+    border-radius: 10px;
+}
