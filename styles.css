@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* border: 1px solid red; */
+    /* border: 1px solid rgb(182, 182, 182); */
 }
 
 body {
@@ -58,7 +58,8 @@ body {
     display: inline-block;
 }
 
-.recipe-header {
+.recipe-header,
+.ingredients-section {
     padding: 10px;
     margin-bottom: 20px;
     margin-left: 12px;
@@ -82,6 +83,15 @@ body {
 }
 
 .recipe-title,
-.recipe-description {
+.recipe-description,
+.ingredients-title {
     padding: 10px;
+}
+
+.ingredients-list {
+    padding-left: 40px;
+}
+
+.ingredient {
+    margin: 5px 0;
 }
