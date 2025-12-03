@@ -59,7 +59,8 @@ body {
 }
 
 .recipe-header,
-.ingredients-section {
+.ingredients-section,
+.steps-section {
     padding: 10px;
     margin-bottom: 20px;
     margin-left: 12px;
@@ -84,14 +85,22 @@ body {
 
 .recipe-title,
 .recipe-description,
-.ingredients-title {
+.ingredients-title,
+.steps-title {
     padding: 10px;
 }
 
-.ingredients-list {
+.ingredients-list,
+.steps-list {
     padding-left: 40px;
 }
 
-.ingredient {
+.ingredient,
+.step {
     margin: 5px 0;
+    margin-left: 18px;
+}
+
+.step {
+    list-style-type: lower-roman;
 }
