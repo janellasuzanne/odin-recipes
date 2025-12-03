@@ -57,3 +57,31 @@ body {
 .breadcrumb .crumb {
     display: inline-block;
 }
+
+.recipe-header {
+    padding: 10px;
+    margin-bottom: 20px;
+    margin-left: 12px;
+}
+
+.recipe-title-description,
+.recipe-photo {
+    display: inline-block;
+    margin: 10px;
+}
+
+.recipe-photo img {
+    width: 300px;
+    height: auto;
+    border-radius: 20px;
+    display: inline-block;
+}
+
+.recipe-title-description {
+    width: 600px;
+}
+
+.recipe-title,
+.recipe-description {
+    padding: 10px;
+}
